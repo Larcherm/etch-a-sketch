@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;   
+    flex-direction: column;
+    aspect-ratio: 1;
+    height: 70vh;
+}
+
+.grid_button {
+    background-color: rgb(230, 230, 230);
+    border: 1px solid lightgray;
+    flex: 1;
+}
+
+
