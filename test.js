@@ -34,3 +34,12 @@ function createGrid(size = 16) {
         }
     }
 }
+
+function randomRGB () {
+    return Math.floor(Math.random() * 256);
+}
+
+if (times_hovered === "0") {
+    grid_button.style.backgroundColor = "rgb(0, 0, 0)";
+    times_hovered += 1;
+}
