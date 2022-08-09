@@ -21,6 +21,16 @@ body {
     position: relative;  
 }
 
+.grid {
+    display: flex;   
+    flex-direction: column;
+    flex: 1;
+}
+
+.inputRow {
+    display: flex;
+}
+
 .main {
     position: absolute; 
     top: 0;
